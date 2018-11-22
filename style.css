@@ -14,10 +14,15 @@ html {
   }
   
   .image-container {
+    overflow: hidden;
     
   }
   
   .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+     
     
   }
   
@@ -25,9 +30,9 @@ html {
   
   #banner {
     height: 46rem;
-    background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1539702431/White-Lotus-610x400.jpg');
+    background-image: url('camel-background.png');
     background-position: center;
-    
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -39,7 +44,7 @@ html {
     
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: grey;
+    color: white;
     font-size: 3.75rem;
   }
   

@@ -25,7 +25,7 @@ html {
   
   #banner {
     height: 46rem;
-    background-image: url('camel-background.png');
+    background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1539702431/White-Lotus-610x400.jpg');
     background-position: center;
     
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ html {
     
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: white;
+    color: grey;
     font-size: 3.75rem;
   }
   

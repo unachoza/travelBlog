@@ -1,123 +1,122 @@
 /* Universal Styles */
 
 html {
-    font-size: 16px;
-  }
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+}
+p {
+  min-height: 200px;
+  min-width: 200px;
+ 
+}
+
+.image-container {
   
-  body {
-    background-color: white;
-  }
-  p {
-    min-height: 200px;
-    min-width: 200px;
-   
-  }
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+   display: block;
+}
+
+/* Banner Section */
+
+#banner {
+  height: 46rem;
+  background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1539702431/White-Lotus-610x400.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h1 {
   
-  .image-container {
-    overflow: hidden;
-    
-  }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 3.75rem;
+}
+
+/* Blog Post */
+
+#blog {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog .post {
   
-  .image-container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-     
-    
-  }
   
-  /* Banner Section */
+  margin-top: 12.5%;
+  margin-bottom: 7.5%;
+	width: 52%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #444444;
+}
+
+.post h2 {
+  font-size: 1.875rem;
   
-  #banner {
-    height: 46rem;
-    background-image: url('camel-background.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
   
-  #banner h1 {
-    
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: white;
-    font-size: 3.75rem;
-  }
+}
+
+.post h3 {
   
-  /* Blog Post */
+  color: #999999;
+  font-size: 1.125rem;
+}
+
+.post .opening-line {
+  margin-top: 4.1875rem;
+  margin-bottom: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.post .image-container {
+  width: 100%;
   
-  #blog {
-    width: 86%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}
+
+/* Blog Images */
+
+.images {
+  margin-bottom: 20%;
+}
+
+.images .image-container {
+  width: 50%;
+  display: inline-block;
   
-  #blog .post {
-    
-    
-    margin-top: 12.5%;
-    margin-bottom: 7.5%;
-      width: 52%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Merriweather', serif;
-    font-weight: 300;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.8;
-    color: #444444;
-  }
-  
-  .post h2 {
-    font-size: 1.875rem;
-    
-    
-  }
-  
-  .post h3 {
-    
-    color: #999999;
-    font-size: 1.125rem;
-  }
-  
-  .post .opening-line {
-    margin-top: 4.1875rem;
-    margin-bottom: 1.5rem;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .post .image-container {
-    width: 100%;
-    
-  }
-  
-  /* Blog Images */
-  
-  .images {
-    margin-bottom: 20%;
-  }
-  
-  .images .image-container {
-    width: 50%;
-    display: inline-block;
-    
-  }
-  
-  /* Footer */
-  
-  footer {
-    padding: 4rem 0;
-    border-top: 1px solid #999999;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-    color: #999999;
-    text-align: center;
-  }
+}
+
+/* Footer */
+
+footer {
+  padding: 4rem 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  color: #999999;
+  text-align: center;
+}
+
+
